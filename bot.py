@@ -22,6 +22,8 @@ def text_handler(message):
         bot.send_message(chat_id, 'Хорошо, а у тебя?')
     elif text == "шкаф":
         bot.send_message(chat_id, 'ШКАфффф ооо дааа!!!')
+    elif text == "зеркало":
+        bot.send_message(chat_id, 'ОООгромное ЗЕРКАЛО!!!')
     else:
         bot.send_message(chat_id, 'Простите, я вас не понял :(')
 
