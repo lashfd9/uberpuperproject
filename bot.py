@@ -20,7 +20,7 @@ def text_handler(message):
         bot.send_message(chat_id, 'Привет, я бот - ищу фильмы.')
     elif text == "как дела?":
         bot.send_message(chat_id, 'Хорошо, а у тебя?')
-    elif text == "Шкаф":
+    elif text == "шкаф":
         bot.send_message(chat_id, 'ШКАфффф ооо дааа!!!')
     else:
         bot.send_message(chat_id, 'Простите, я вас не понял :(')
